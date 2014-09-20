@@ -95,4 +95,4 @@ The final stage of work involved transforming the data into their sums. Using th
 | 65 | Frequency.BodyBodyAccJerkMag.std | float | Average std value of Frequency.BodyBodyAccJerkMag.std |
 | 66 | Frequency.BodyBodyGyroMag.mean | float | Average mean value of Frequency.BodyBodyGyroMag.mean |
 | 67 | Frequency.BodyBodyGyroMag.std | float | Average std value of Frequency.BodyBodyGyroMag.std |
-| 68 | Frequency.BodyBodyGyroJerkMag.mean | float | Average std value of Frequency.BodyBodyGyroJerkMag.mean |
+| 68 | Frequency.BodyBodyGyroJerkMag.mean | float | Average mean value of Frequency.BodyBodyGyroJerkMag.mean |
