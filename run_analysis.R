@@ -77,8 +77,8 @@ data$AID <- activities[match(data$AID, activities$AID),2]
 
 
 # Appropriately labels the data set with descriptive variable names.
-# Remove the paranthasis, and change other punctuation to dots
-# ransform ^(t|f) to (Time|Frequency) respectfully
+# Remove the parenthesis, and change other punctuation to dots
+# Transform ^(t|f) to (Time|Frequency). respectfully
 new_names <- features[feature_matches,][2]
 new_names <- gsub('[()]+', '', new_names$V2)
 new_names <- gsub('[[:punct:]]', '.', new_names)
@@ -89,7 +89,8 @@ names(data) <- c(new_names, 'Activity', 'Subject')
 
 # From the data set in step 4, creates a second, independent tidy data set 
 #  with the average of each variable for each activity and each subject.
-# Melt down with reshape2 functions, then cast the data into a summary DF
+# Melt down with reshape2 functions, then cast the data into a summary dataframe for output
+# Apply the mean() function to all variables
 melted <- melt(data, id=c("Subject","Activity"))
 output <- dcast(melted, Subject+Activity ~ variable, mean)
 
