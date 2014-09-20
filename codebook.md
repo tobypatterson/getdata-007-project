@@ -9,7 +9,7 @@ The unziped archive contains several files and directories.
 * features.txt A factor describing the various types of test
 * features_info.txt A description of the test methodologies and a description of the original data variables
 * test/ A directory containing test data
-* train/ A directory containing trainging data
+* train/ A directory containing training data
 
 # Assembling the data
 
@@ -93,6 +93,6 @@ The final stage of work involved transforming the data into their sums. Using th
 | 63 | Frequency.BodyAccMag.std | float | Average std value of Frequency.BodyAccMag.std |
 | 64 | Frequency.BodyBodyAccJerkMag.mean | float | Average mean value of Frequency.BodyBodyAccJerkMag.mean |
 | 65 | Frequency.BodyBodyAccJerkMag.std | float | Average std value of Frequency.BodyBodyAccJerkMag.std |
-| 66 | Frequency.BodyBodyGyroMag.mean | float | Average mean value of Frequency.BodyBodyGyroMag.mean |
-| 67 | Frequency.BodyBodyGyroMag.std | float | Average std value of Frequency.BodyBodyGyroMag.std |
-| 68 | Frequency.BodyBodyGyroJerkMag.mean | float | Average mean value of Frequency.BodyBodyGyroJerkMag.mean |
+| 66 | Frequency.BodyBodyGyroMag.std | float | Average std value of Frequency.BodyBodyGyroMag.std |
+| 67 | Frequency.BodyBodyGyroJerkMag.mean | float | Average mean value of Frequency.BodyBodyGyroJerkMag.mean |
+| 68 | Frequency.BodyBodyGyroJerkMag.std | float | Average std value of Frequency.BodyBodyGyroJerkMag.std |
